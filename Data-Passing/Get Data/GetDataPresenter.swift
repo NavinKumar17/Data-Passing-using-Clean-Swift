@@ -15,7 +15,7 @@ import UIKit
 protocol GetDataPresentationLogic
 {
     func presentSomething(response: GetData.Something.Response)
-    func presentSendData(response:GetData.Recive.Response)
+    func presentSendData(response:GetData.Receive.Response)
 }
 
 class GetDataPresenter: GetDataPresentationLogic
@@ -30,10 +30,10 @@ class GetDataPresenter: GetDataPresentationLogic
         let viewModel = GetData.Something.ViewModel(greeting: greeting)
         viewController?.displaySomething(viewModel: viewModel)
     }
-    func presentSendData(response: GetData.Recive.Response) {
+    func presentSendData(response: GetData.Receive.Response) {
         
         
-        let viewModel = GetData.Recive.ViewModel()
+        let viewModel = GetData.Receive.ViewModel()
         viewController?.displayGreeting(viewModel: viewModel)
         
     }

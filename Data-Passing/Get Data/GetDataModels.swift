@@ -30,7 +30,7 @@ enum GetData
             var greeting:String
         }
     }
-    enum Recive {
+    enum Receive {
         struct Request:Codable
         {
             var title: String?

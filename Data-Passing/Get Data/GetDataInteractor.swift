@@ -15,7 +15,7 @@ import UIKit
 protocol GetDataBusinessLogic
 {
     func doSomething(request: GetData.Something.Request)
-    func sendData(reuest: GetData.Recive.Request)
+    func sendData(reuest: GetData.Receive.Request)
 }
 
 protocol GetDataDataStore
@@ -32,13 +32,13 @@ class GetDataInteractor: GetDataBusinessLogic, GetDataDataStore
     var name: String = ""
     
     // MARK: Do something
-    func sendData(reuest: GetData.Recive.Request) {
+    func sendData(reuest: GetData.Receive.Request) {
         worker?.doSomeWork()
         if(worker?.someData?.title != nil)
         {
             name = (worker?.someData!.title)!
         }
-        let response = GetData.Recive.Response()
+        let response = GetData.Receive.Response()
         presenter?.presentSendData(response: response)
     }
     

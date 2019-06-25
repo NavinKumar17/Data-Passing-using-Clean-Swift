@@ -15,7 +15,7 @@ import UIKit
 protocol GetDataDisplayLogic: class
 {
     func displaySomething(viewModel: GetData.Something.ViewModel)
-    func displayGreeting(viewModel: GetData.Recive.ViewModel)
+    func displayGreeting(viewModel: GetData.Receive.ViewModel)
     
 }
 
@@ -89,7 +89,7 @@ class GetDataViewController: UIViewController, GetDataDisplayLogic
     {
 //        let name = textField.text
         let name = label.text
-        let request = GetData.Recive.Request(title: name)
+        let request = GetData.Receive.Request(title: name)
         interactor?.sendData(reuest: request)
     }
     func doSomething()
@@ -102,7 +102,7 @@ class GetDataViewController: UIViewController, GetDataDisplayLogic
     {
         label.text = viewModel.greeting
     }
-    func displayGreeting(viewModel: GetData.Recive.ViewModel) {
+    func displayGreeting(viewModel: GetData.Receive.ViewModel) {
         router?.routeToSomewhere(segue: nil)
     }
     

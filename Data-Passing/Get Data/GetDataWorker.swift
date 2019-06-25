@@ -17,7 +17,7 @@ protocol SomeData {
 class GetDataWorker:SomeData
 {
     var title:String = ""
-    var someData:GetData.Recive.Request?
+    var someData:GetData.Receive.Request?
     func doSomeWork()
     {
         var urlRequest = URLRequest(url: URL(string: "https://jsonplaceholder.typicode.com/todos/1")!)
@@ -25,7 +25,7 @@ class GetDataWorker:SomeData
         URLSession.shared.dataTask(with: urlRequest) { (data, resp, err) in
             print(data)
             do{
-                self.someData = try JSONDecoder().decode(GetData.Recive.Request.self, from: data!)
+                self.someData = try JSONDecoder().decode(GetData.Receive.Request.self, from: data!)
                 DispatchQueue.main.async {
                     print(self.someData?.title)
                 }
