@@ -14,6 +14,18 @@
 		715BF7E122C1F89700BE3D4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715BF7DF22C1F89700BE3D4B /* LaunchScreen.storyboard */; };
 		715BF7EC22C1F89700BE3D4B /* Data_PassingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BF7EB22C1F89700BE3D4B /* Data_PassingTests.swift */; };
 		715BF7F722C1F89700BE3D4B /* Data_PassingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BF7F622C1F89700BE3D4B /* Data_PassingUITests.swift */; };
+		715BF80C22C1F8CF00BE3D4B /* GetDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BF80622C1F8CF00BE3D4B /* GetDataPresenter.swift */; };
+		715BF80D22C1F8CF00BE3D4B /* GetDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BF80722C1F8CF00BE3D4B /* GetDataWorker.swift */; };
+		715BF80E22C1F8CF00BE3D4B /* GetDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BF80822C1F8CF00BE3D4B /* GetDataRouter.swift */; };
+		715BF80F22C1F8CF00BE3D4B /* GetDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BF80922C1F8CF00BE3D4B /* GetDataModels.swift */; };
+		715BF81022C1F8CF00BE3D4B /* GetDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BF80A22C1F8CF00BE3D4B /* GetDataViewController.swift */; };
+		715BF81122C1F8CF00BE3D4B /* GetDataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BF80B22C1F8CF00BE3D4B /* GetDataInteractor.swift */; };
+		715BF81822C1F8DF00BE3D4B /* SendDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BF81222C1F8DF00BE3D4B /* SendDataPresenter.swift */; };
+		715BF81922C1F8DF00BE3D4B /* SendDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BF81322C1F8DF00BE3D4B /* SendDataWorker.swift */; };
+		715BF81A22C1F8DF00BE3D4B /* SendDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BF81422C1F8DF00BE3D4B /* SendDataRouter.swift */; };
+		715BF81B22C1F8DF00BE3D4B /* SendDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BF81522C1F8DF00BE3D4B /* SendDataModels.swift */; };
+		715BF81C22C1F8DF00BE3D4B /* SendDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BF81622C1F8DF00BE3D4B /* SendDataViewController.swift */; };
+		715BF81D22C1F8DF00BE3D4B /* SendDataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BF81722C1F8DF00BE3D4B /* SendDataInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		715BF7F222C1F89700BE3D4B /* Data-PassingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Data-PassingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		715BF7F622C1F89700BE3D4B /* Data_PassingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_PassingUITests.swift; sourceTree = "<group>"; };
 		715BF7F822C1F89700BE3D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715BF80622C1F8CF00BE3D4B /* GetDataPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataPresenter.swift; sourceTree = "<group>"; };
+		715BF80722C1F8CF00BE3D4B /* GetDataWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataWorker.swift; sourceTree = "<group>"; };
+		715BF80822C1F8CF00BE3D4B /* GetDataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataRouter.swift; sourceTree = "<group>"; };
+		715BF80922C1F8CF00BE3D4B /* GetDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataModels.swift; sourceTree = "<group>"; };
+		715BF80A22C1F8CF00BE3D4B /* GetDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataViewController.swift; sourceTree = "<group>"; };
+		715BF80B22C1F8CF00BE3D4B /* GetDataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataInteractor.swift; sourceTree = "<group>"; };
+		715BF81222C1F8DF00BE3D4B /* SendDataPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataPresenter.swift; sourceTree = "<group>"; };
+		715BF81322C1F8DF00BE3D4B /* SendDataWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataWorker.swift; sourceTree = "<group>"; };
+		715BF81422C1F8DF00BE3D4B /* SendDataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataRouter.swift; sourceTree = "<group>"; };
+		715BF81522C1F8DF00BE3D4B /* SendDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataModels.swift; sourceTree = "<group>"; };
+		715BF81622C1F8DF00BE3D4B /* SendDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataViewController.swift; sourceTree = "<group>"; };
+		715BF81722C1F8DF00BE3D4B /* SendDataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +121,8 @@
 		715BF7D522C1F89700BE3D4B /* Data-Passing */ = {
 			isa = PBXGroup;
 			children = (
+				715BF80522C1F8AA00BE3D4B /* Get Data */,
+				715BF80422C1F8A000BE3D4B /* New Group */,
 				715BF7D622C1F89700BE3D4B /* AppDelegate.swift */,
 				715BF7D822C1F89700BE3D4B /* ViewController.swift */,
 				715BF7DA22C1F89700BE3D4B /* Main.storyboard */,
@@ -123,6 +149,32 @@
 				715BF7F822C1F89700BE3D4B /* Info.plist */,
 			);
 			path = "Data-PassingUITests";
+			sourceTree = "<group>";
+		};
+		715BF80422C1F8A000BE3D4B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				715BF81222C1F8DF00BE3D4B /* SendDataPresenter.swift */,
+				715BF81322C1F8DF00BE3D4B /* SendDataWorker.swift */,
+				715BF81422C1F8DF00BE3D4B /* SendDataRouter.swift */,
+				715BF81522C1F8DF00BE3D4B /* SendDataModels.swift */,
+				715BF81622C1F8DF00BE3D4B /* SendDataViewController.swift */,
+				715BF81722C1F8DF00BE3D4B /* SendDataInteractor.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		715BF80522C1F8AA00BE3D4B /* Get Data */ = {
+			isa = PBXGroup;
+			children = (
+				715BF80622C1F8CF00BE3D4B /* GetDataPresenter.swift */,
+				715BF80722C1F8CF00BE3D4B /* GetDataWorker.swift */,
+				715BF80822C1F8CF00BE3D4B /* GetDataRouter.swift */,
+				715BF80922C1F8CF00BE3D4B /* GetDataModels.swift */,
+				715BF80A22C1F8CF00BE3D4B /* GetDataViewController.swift */,
+				715BF80B22C1F8CF00BE3D4B /* GetDataInteractor.swift */,
+			);
+			path = "Get Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +308,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715BF80E22C1F8CF00BE3D4B /* GetDataRouter.swift in Sources */,
 				715BF7D922C1F89700BE3D4B /* ViewController.swift in Sources */,
+				715BF81D22C1F8DF00BE3D4B /* SendDataInteractor.swift in Sources */,
+				715BF80F22C1F8CF00BE3D4B /* GetDataModels.swift in Sources */,
+				715BF80C22C1F8CF00BE3D4B /* GetDataPresenter.swift in Sources */,
+				715BF80D22C1F8CF00BE3D4B /* GetDataWorker.swift in Sources */,
 				715BF7D722C1F89700BE3D4B /* AppDelegate.swift in Sources */,
+				715BF81822C1F8DF00BE3D4B /* SendDataPresenter.swift in Sources */,
+				715BF81B22C1F8DF00BE3D4B /* SendDataModels.swift in Sources */,
+				715BF81C22C1F8DF00BE3D4B /* SendDataViewController.swift in Sources */,
+				715BF81A22C1F8DF00BE3D4B /* SendDataRouter.swift in Sources */,
+				715BF81922C1F8DF00BE3D4B /* SendDataWorker.swift in Sources */,
+				715BF81022C1F8CF00BE3D4B /* GetDataViewController.swift in Sources */,
+				715BF81122C1F8CF00BE3D4B /* GetDataInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
