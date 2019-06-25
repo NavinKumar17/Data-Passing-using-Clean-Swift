@@ -31,6 +31,7 @@ enum SendData
         }
     }
     enum Recive {
+        
         struct Request:Codable
         {
             var name: String?

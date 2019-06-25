@@ -78,7 +78,7 @@ class SendDataViewController: UIViewController, SendDataDisplayLogic
     }
     
     // MARK: Do something
-    @IBOutlet weak var textField: UITextField!
+   
     @IBOutlet weak var label: UILabel!
     @IBAction func onTapPassDataBtn(_ sender: Any) {
         tellParent()
@@ -87,7 +87,7 @@ class SendDataViewController: UIViewController, SendDataDisplayLogic
     func tellParent()
     {
         let data = label.text
-        let name = textField.text
+
         let request = SendData.Recive.Request(name: data)
         interactor?.recivedata(requset: request)
     }

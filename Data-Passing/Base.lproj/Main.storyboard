@@ -19,11 +19,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LD1-kY-K95">
-                                <rect key="frame" x="57" y="641" width="300" height="45"/>
+                                <rect key="frame" x="82" y="641" width="250" height="45"/>
                                 <color key="backgroundColor" red="0.27450980390000002" green="0.59607843140000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="7Pf-nD-GJE"/>
-                                    <constraint firstAttribute="height" constant="45" id="vgW-8t-OKM"/>
+                                    <constraint firstAttribute="width" constant="250" id="UMV-2R-VwQ"/>
+                                    <constraint firstAttribute="height" constant="45" id="Wyd-H7-Jmv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Pass Data">
@@ -43,31 +43,18 @@
                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T9E-N8-Gcn">
-                                <rect key="frame" x="57" y="273" width="300" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="CQc-k5-kws"/>
-                                    <constraint firstAttribute="width" constant="300" id="SS1-Qn-3Xp"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="LD1-kY-K95" firstAttribute="top" secondItem="T9E-N8-Gcn" secondAttribute="bottom" constant="318" id="2wa-zs-rWt"/>
+                            <constraint firstItem="LD1-kY-K95" firstAttribute="top" secondItem="exD-Ag-2Jv" secondAttribute="bottom" constant="490" id="FyM-om-G5K"/>
                             <constraint firstItem="exD-Ag-2Jv" firstAttribute="centerX" secondItem="c6c-XU-dsy" secondAttribute="centerX" id="GZg-64-LmQ"/>
-                            <constraint firstItem="T9E-N8-Gcn" firstAttribute="top" secondItem="exD-Ag-2Jv" secondAttribute="bottom" constant="122" id="JDO-6b-B5p"/>
-                            <constraint firstItem="LD1-kY-K95" firstAttribute="centerX" secondItem="c6c-XU-dsy" secondAttribute="centerX" id="Juq-ea-hse"/>
-                            <constraint firstItem="T9E-N8-Gcn" firstAttribute="centerX" secondItem="c6c-XU-dsy" secondAttribute="centerX" id="pHq-HB-lBs"/>
+                            <constraint firstItem="LD1-kY-K95" firstAttribute="centerX" secondItem="c6c-XU-dsy" secondAttribute="centerX" id="WRo-ya-Bbi"/>
                             <constraint firstItem="exD-Ag-2Jv" firstAttribute="top" secondItem="3A1-lA-EFf" secondAttribute="top" constant="67" id="r5F-81-zPc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3A1-lA-EFf"/>
                     </view>
                     <connections>
                         <outlet property="label" destination="exD-Ag-2Jv" id="aJc-AF-BN9"/>
-                        <outlet property="textField" destination="T9E-N8-Gcn" id="qcP-3Y-2r2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FjB-OA-Gze" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -93,11 +80,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LsI-ab-HQw">
-                                <rect key="frame" x="57" y="646" width="300" height="46"/>
+                                <rect key="frame" x="82" y="646" width="250" height="46"/>
                                 <color key="backgroundColor" red="1" green="0.63967702969999995" blue="0.27474528970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="46" id="5Fq-BV-gkb"/>
-                                    <constraint firstAttribute="width" constant="300" id="uOR-Cu-jrU"/>
+                                    <constraint firstAttribute="width" constant="250" id="mzj-QR-ngo"/>
+                                    <constraint firstAttribute="height" constant="46" id="t2k-sh-HO5"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Get Data">
@@ -107,32 +94,19 @@
                                     <action selector="onTapGetDataBtn:" destination="1DY-U2-cab" eventType="touchUpInside" id="Bc0-gi-hqM"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GTC-y5-QPP">
-                                <rect key="frame" x="57" y="265" width="300" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="RyV-zb-vcu"/>
-                                    <constraint firstAttribute="height" constant="50" id="qrl-Pz-iNu"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="LsI-ab-HQw" firstAttribute="top" secondItem="Nv7-b7-KWw" secondAttribute="bottom" constant="495" id="0Ys-OB-Xzq"/>
                             <constraint firstItem="Nv7-b7-KWw" firstAttribute="centerX" secondItem="XLN-kP-8Hy" secondAttribute="centerX" id="1o1-Az-Aji"/>
-                            <constraint firstItem="LsI-ab-HQw" firstAttribute="centerX" secondItem="XLN-kP-8Hy" secondAttribute="centerX" id="NaW-Bd-uqD"/>
+                            <constraint firstItem="LsI-ab-HQw" firstAttribute="centerX" secondItem="XLN-kP-8Hy" secondAttribute="centerX" id="MfA-IT-ODX"/>
                             <constraint firstItem="Nv7-b7-KWw" firstAttribute="top" secondItem="ziV-ew-gCw" secondAttribute="top" constant="67" id="WNM-X9-KcV"/>
-                            <constraint firstItem="GTC-y5-QPP" firstAttribute="top" secondItem="Nv7-b7-KWw" secondAttribute="bottom" constant="114" id="Y9Z-HK-aeg"/>
-                            <constraint firstItem="GTC-y5-QPP" firstAttribute="centerX" secondItem="XLN-kP-8Hy" secondAttribute="centerX" id="xdH-d5-2ck"/>
-                            <constraint firstItem="LsI-ab-HQw" firstAttribute="top" secondItem="GTC-y5-QPP" secondAttribute="bottom" constant="331" id="yTf-dD-5Eh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ziV-ew-gCw"/>
                     </view>
                     <navigationItem key="navigationItem" id="eEI-BU-GYZ"/>
                     <connections>
                         <outlet property="label" destination="Nv7-b7-KWw" id="zJJ-K8-WSH"/>
-                        <outlet property="textField" destination="GTC-y5-QPP" id="lRo-Ca-xg4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CzL-vi-HQs" sceneMemberID="firstResponder"/>

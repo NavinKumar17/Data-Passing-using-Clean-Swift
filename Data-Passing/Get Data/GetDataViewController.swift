@@ -87,7 +87,8 @@ class GetDataViewController: UIViewController, GetDataDisplayLogic
     }
     func doSomeWork()
     {
-        let name = textField.text
+//        let name = textField.text
+        let name = label.text
         let request = GetData.Recive.Request(title: name)
         interactor?.sendData(reuest: request)
     }
